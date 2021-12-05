@@ -14,7 +14,6 @@ jobs:
           CI: false
         run: |
           npm install
-          rm -rf .deploy_git
           npm run build
           npm run deploy
 
